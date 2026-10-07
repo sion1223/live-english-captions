@@ -271,7 +271,7 @@ async function setProfile(message) {
   current.lastCaption = null;
   if (current.engine !== "local" && (socket || reconnectTimer)) {
     pendingAudio = [];
-    reconnect(generation, current.profile ? current.profile.name + " 방송 프로필 적용 중…" : "기본 자동 인식으로 전환 중…");
+    reconnect(generation, current.profile ? current.profile.name + " 커스텀 용어 적용 중…" : "기본 자동 인식으로 전환 중…");
   } else setState(current.status, current.error);
   return snapshot();
 }

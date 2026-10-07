@@ -14,12 +14,11 @@ globalThis.CaptionProfiles = {
     const identity = this.identity(channel.ownerUrl);
     if (!identity || !channel.videoId) return null;
     return profiles.find(profile => {
-      const identities = ["channel/" + profile.channelId, ...profile.handles.map(handle => "@" + handle)];
+      const identities = ["channel/" + (profile.channelId || ""), ...(profile.handles || []).map(handle => "@" + handle)];
       return identities.some(value => value.toLowerCase() === identity);
     }) || null;
   },
   summary(profile) {
-    return profile ? { id: profile.id, name: profile.name, vocabularyCount: profile.vocabulary.length,
-      sourceCount: profile.sources.length } : null;
+    return profile ? { id: profile.id, name: profile.name, vocabularyCount: profile.vocabulary.length } : null;
   },
 };

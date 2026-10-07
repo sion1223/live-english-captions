@@ -30,6 +30,8 @@ body.embedded { width:100%;padding:16px 20px; }
 .profile-card { padding:11px 12px;margin:0 0 15px;background:#1b251c;border:1px solid #33422e;border-radius:8px; }
 .profile-card strong { display:block;font-size:13px;font-weight:600;color:#d4eccc; }
 .profile-card .privacy { margin:5px 0 0;font-size:10px; }
+.profile-help { margin:10px 0 0; }
+.profile-help code { overflow-wrap:anywhere; }
 .appearance { padding-top:12px;border-top:1px solid #2a3329; }
 .range-label { display:flex;justify-content:space-between;margin-top:14px; }
 input[type="range"] { padding:0;accent-color:#b9ef8c;height:22px;cursor:pointer; }

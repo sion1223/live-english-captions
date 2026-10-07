@@ -52,7 +52,8 @@ class TranscriptTests(unittest.TestCase):
         self.assertLessEqual(len(buffer.final_tokens), 72)
 
     def test_channel_vocabulary_and_error_recovery(self):
-        self.assertTrue(transcription_config("saba")["context"]["terms"])
+        with patch("factchat_engine.get_profile", return_value={"vocabulary": ["Star Harbor", "Moon Crystal"]}):
+            self.assertEqual(transcription_config("my-channel")["context"]["terms"], ["Star Harbor", "Moon Crystal"])
         self.assertNotIn("language_hints_strict", transcription_config())
         self.assertIsInstance(cloud_error({"error_code": 429}), ReconnectGeminiError)
         self.assertIsInstance(cloud_error({"error_code": 402}), ValueError)
@@ -130,8 +131,9 @@ class SessionTests(unittest.IsolatedAsyncioTestCase):
                 yield json.dumps({"type": "stop"})
         cloud, browser = Cloud(), Browser()
         with patch("factchat_engine.connect", return_value=cloud) as connect, \
+             patch("factchat_engine.get_profile", return_value={"vocabulary": ["Star Harbor", "Moon Crystal"]}), \
              patch("translation.translate_text", new_callable=AsyncMock) as translate:
-            await asyncio.wait_for(factchat_engine.run_session(browser, "baze_fake-key", "saba"), 1)
+            await asyncio.wait_for(factchat_engine.run_session(browser, "baze_fake-key", "my-channel"), 1)
         translate.assert_not_called()
         self.assertEqual([event["type"] for event in browser.events], ["ready", "transcript", "done"])
         self.assertEqual(browser.events[1]["text"], "Hi!")

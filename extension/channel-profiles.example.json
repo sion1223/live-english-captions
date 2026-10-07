@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "my-channel",
+      "name": "내 채널",
+      "handles": ["YourChannelHandle"],
+      "vocabulary": ["Star Harbor", "Moon Crystal"]
+    }
+  ]
+}

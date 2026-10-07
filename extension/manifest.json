@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Live English Captions",
-  "version": "0.6.0",
-  "description": "FactChat의 Soniox 받아쓰기와 Gemini 번역으로 유튜브 영어 자막을 표시합니다.",
+  "version": "0.6.1",
+  "description": "FactChat의 Soniox 받아쓰기와 Gemini 번역으로 유튜브 영어 자막을 표시합니다. 채널별 용어를 커스텀할 수 있습니다.",
   "minimum_chrome_version": "116",
   "permissions": ["activeTab", "tabCapture", "offscreen", "scripting", "storage", "nativeMessaging"],
   "host_permissions": ["http://127.0.0.1:8765/*", "https://www.youtube.com/*", "https://youtube.com/*"],

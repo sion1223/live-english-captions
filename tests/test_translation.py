@@ -24,9 +24,10 @@ from api_limits import retry_delay
 
 class ValidationTests(unittest.TestCase):
     def test_automatic_language_and_vocabulary(self):
-        config = transcription_config("saba")
+        with patch("gemini_engine.get_profile", return_value={"vocabulary": ["Star Harbor", "Moon Crystal"]}):
+            config = transcription_config("my-channel")
         self.assertEqual(config["languageCodes"], [])
-        self.assertTrue(config["customVocabulary"])
+        self.assertEqual(config["customVocabulary"], ["Star Harbor", "Moon Crystal"])
 
     def test_invalid_boxes_are_never_sent_to_the_overlay(self):
         valid = {"source": "bonjour", "english": "hello", "box": [100, 100, 200, 200]}

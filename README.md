@@ -74,17 +74,19 @@ FactChat 연결 실패 시 Google 키로 자동 전환하지 않습니다.
 오디오 소스가 바뀌면 새 트랙으로 재연결하고, 중지된 세션의 이벤트와 재시도는 제거합니다.
 브라우저 종료, PC 절전, 영상 일시정지 중에는 새로운 음성을 처리하지 못합니다.
 
-## 방송별 용어와 자막 크기
+## 커스텀 용어와 자막 크기
 
-- 영상 소유 채널을 자동 인식하여 Soniox 또는 Gemini 음성 인식 세션에 용어 힌트를 적용합니다.
+- 원하는 YouTube 채널과 받아쓰기 용어를 직접 설정할 수 있습니다. 기본 제공 채널 프로필은 비어 있습니다.
+- `extension/channel-profiles.example.json`을 참고해 `extension/channel-profiles.json`에 채널 핸들 또는 ID와 용어를 등록합니다.
+- 영상 소유 채널이 등록한 채널과 일치하면 Soniox 또는 Gemini 음성 인식 세션에 커스텀 용어를 자동 적용합니다.
 - 자막 글자 크기 16–42px, 최대 너비 45–95%를 설정하며 변경 사항을 저장합니다.
-- 근거: [방송 프로필](reports/channel-profiles.md), 데이터: `extension/channel-profiles.json`.
+- 설정 예시와 적용 방법: [커스텀 채널 프로필 안내](reports/channel-profiles.md).
 
 ## 내부 구성
 
 - Native Messaging 실행기: `native_host.py`와 `native-host.cmd`. 시작 명령만 허용하며 API 키는 반환하지 않습니다.
 - 음성: 영상 audio captureStream → 로컬 WebRTC → offscreen AudioWorklet → 16kHz mono PCM16.
-- FactChat 인식: Soniox `stt-rt-v5`, 자동 언어 감지와 방송별 용어 힌트. 확정 토큰은 누적하고 미확정 부분만 교체하며 발화 경계에서 문장을 확정합니다.
+- FactChat 인식: Soniox `stt-rt-v5`, 자동 언어 감지와 커스텀 용어 힌트. 확정 토큰은 누적하고 미확정 부분만 교체하며 발화 경계에서 문장을 확정합니다.
   기존 `gemini-3.5-transcribe-live`는 제공된 FactChat 계정에서 지원하지 않아 Soniox를 사용합니다. Google 직접 연결에서는 기존 Gemini 인식을 유지합니다.
 - 음성 문장 영어 번역: `gemini-3.1-flash-lite`. FactChat의 Gemini 네이티브 경로를 지원하며 `GEMINI_CAPTION_TRANSLATION_MODEL`로 모델을 지정합니다.
 - 영상 글자 번역: `gemini-3.5-flash-lite`. FactChat의 Gemini 네이티브 경로에서 기존 이미지·JSON 스키마를 그대로 사용합니다. `GEMINI_SCREEN_TRANSLATION_MODEL`로 모델을 지정합니다.

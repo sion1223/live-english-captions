@@ -40,8 +40,8 @@ async function refresh() {
     document.querySelector("#profile-status").textContent = profile?.name || "언어 자동 인식";
     document.querySelector("#profile-detail").textContent = profile ?
       (running && state.profileApplied === profile.id ? "적용 중" : "자동 선택됨") +
-        " · 참고 방송 " + profile.sourceCount + "개 · 용어 " + profile.vocabularyCount + "개" :
-      "Saba · Cecilia Immergreen 채널에서 맞춤 용어를 자동 적용합니다.";
+        " · 커스텀 용어 " + profile.vocabularyCount + "개" :
+      "원하는 채널과 받아쓰기 용어를 커스텀할 수 있습니다.";
 
     const saved = state.online && state.geminiConfigured;
     document.querySelector("#key-saved").textContent = saved ? "✓ API 키 저장됨 · 다음 실행에도 자동 사용" :

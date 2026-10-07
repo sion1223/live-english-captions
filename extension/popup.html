@@ -11,9 +11,14 @@
   <p class="intro">언어 자동 감지 → 영어</p>
   <p id="privacy" class="privacy">음성과 번역할 영상 화면을 선택한 API 서비스로 전송합니다.</p>
   <div class="profile-card">
-    <span class="label">방송 맞춤 · 채널 자동 인식</span>
+    <span class="label">커스텀 용어 · 채널 자동 적용</span>
     <strong id="profile-status">채널 확인 중…</strong>
     <p id="profile-detail" class="privacy"></p>
+    <details class="profile-help">
+      <summary>커스텀 설정 방법</summary>
+      <p class="privacy">설치 폴더의 <code>extension/channel-profiles.example.json</code>을 참고해 <code>extension/channel-profiles.json</code>에 채널과 용어를 등록하세요.</p>
+      <p class="privacy">저장 후 자막을 중지하고 <code>stop.ps1</code>로 서버를 종료하세요. 확장 프로그램과 YouTube 페이지를 새로고침한 뒤 자막을 다시 시작하면 적용됩니다.</p>
+    </details>
   </div>
   <div class="engine"><span id="dot"></span><span id="engine">연결 확인 중…</span></div>
   <button id="toggle" disabled>확인 중…</button>

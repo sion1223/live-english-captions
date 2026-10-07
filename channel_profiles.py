@@ -1,4 +1,4 @@
-"""Load reviewed, bounded channel vocabularies shared with the extension."""
+"""Load bounded custom channel vocabularies shared with the extension."""
 from functools import lru_cache
 import json
 from pathlib import Path
@@ -13,7 +13,7 @@ def load_profiles():
     for profile in document["profiles"]:
         words = profile["vocabulary"]
         if not 1 <= len(words) <= 100:
-            raise ValueError("Channel profiles must contain between 1 and 100 reviewed terms.")
+            raise ValueError("Channel profiles must contain between 1 and 100 terms.")
         if any(not isinstance(word, str) or not word.strip() or len(word) > 80 or "\n" in word for word in words):
             raise ValueError("Invalid channel vocabulary.")
         if len({word.casefold() for word in words}) != len(words):
