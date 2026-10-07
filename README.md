@@ -76,8 +76,6 @@ FactChat 연결 실패 시 Google 키로 자동 전환하지 않습니다.
 
 ## 방송별 용어와 자막 크기
 
-- Saba (@SamekoSaba): 참고 방송 3개, 용어 26개.
-- Cecilia Immergreen (@holoen_ceciliaimmergreen): 참고 방송 2개와 공식 자료, 용어 30개.
 - 영상 소유 채널을 자동 인식하여 Soniox 또는 Gemini 음성 인식 세션에 용어 힌트를 적용합니다.
 - 자막 글자 크기 16–42px, 최대 너비 45–95%를 설정하며 변경 사항을 저장합니다.
 - 근거: [방송 프로필](reports/channel-profiles.md), 데이터: `extension/channel-profiles.json`.
