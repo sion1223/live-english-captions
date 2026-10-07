@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>Live English Captions</title>
+</head>
+<body>
+  <header><span class="mark">Cc</span><span class="tag">LIVE ENGLISH</span></header>
+  <h1>영어 자막</h1>
+  <p class="intro">언어 자동 감지 → 영어</p>
+  <p id="privacy" class="privacy">음성과 번역할 영상 화면을 선택한 API 서비스로 전송합니다.</p>
+  <div class="profile-card">
+    <span class="label">방송 맞춤 · 채널 자동 인식</span>
+    <strong id="profile-status">채널 확인 중…</strong>
+    <p id="profile-detail" class="privacy"></p>
+  </div>
+  <div class="engine"><span id="dot"></span><span id="engine">연결 확인 중…</span></div>
+  <button id="toggle" disabled>확인 중…</button>
+  <p id="message" role="status"></p>
+  <section class="screen-options">
+    <label class="switch-row"><span>화면 글자 영어 번역</span><input id="screen-enabled" type="checkbox"></label>
+    <p class="privacy">받아쓰기는 계속됩니다. 화면번역은 필요할 때만 켜세요.</p>
+    <label class="label" for="screen-interval">화면 확인 간격</label>
+    <select id="screen-interval"><option value="2">2초 · 빠르게</option><option value="3" selected>3초 · 기본</option><option value="5">5초 · 절약</option><option value="10">10초 · 최대 절약</option></select>
+    <p class="privacy">작은 화면 변화는 건너뛰고, 번역할 글자가 없으면 최대 15초 간격으로 확인합니다.</p>
+    <p id="screen-key-saved" class="privacy" role="status"></p>
+    <details><summary>화면번역 API 키</summary>
+      <label class="label" for="screen-api-key">화면번역 키</label>
+      <input id="screen-api-key" type="password" placeholder="화면번역에 사용할 별도 키" autocomplete="off">
+      <button id="save-screen-key" class="secondary">화면번역 키 저장</button>
+      <p id="screen-key-status" role="status"></p>
+      <p id="screen-key-detail" class="privacy">서버에 저장된 API 키를 사용합니다.</p>
+    </details>
+    <p id="screen-usage" class="privacy" role="status"></p>
+    <p id="screen-status" role="status"></p>
+  </section>
+  <details class="appearance">
+    <summary>자막 크기 조절</summary>
+    <label class="label range-label" for="caption-font">글자 크기 <output id="font-value">24px</output></label>
+    <input id="caption-font" type="range" min="16" max="42" step="1" value="24">
+    <label class="label range-label" for="caption-width">최대 너비 <output id="width-value">80%</output></label>
+    <input id="caption-width" type="range" min="45" max="95" step="1" value="80">
+    <button id="reset-style" type="button" class="secondary">크기 기본값으로</button>
+    <p id="style-status" role="status"></p>
+  </details>
+  <p id="key-saved" class="privacy" role="status"></p>
+  <details><summary id="key-summary">받아쓰기 API 키 설정</summary>
+    <p class="privacy">받아쓰기와 음성 문장의 영어 번역에 사용하는 키입니다. 키는 이 PC에 저장됩니다.</p>
+    <label class="label" for="api-key">받아쓰기 키</label>
+    <input id="api-key" type="password" placeholder="Gemini API key" autocomplete="off">
+    <button id="save-key" class="secondary">키 저장</button>
+    <p id="key-status" role="status"></p>
+  </details>
+  <footer>Live English Captions</footer>
+  <script src="runtime-context.js"></script>
+  <script src="caption-style.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

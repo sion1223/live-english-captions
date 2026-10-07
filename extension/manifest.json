@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Live English Captions",
+  "version": "0.6.0",
+  "description": "FactChat의 Soniox 받아쓰기와 Gemini 번역으로 유튜브 영어 자막을 표시합니다.",
+  "minimum_chrome_version": "116",
+  "permissions": ["activeTab", "tabCapture", "offscreen", "scripting", "storage", "nativeMessaging"],
+  "host_permissions": ["http://127.0.0.1:8765/*", "https://www.youtube.com/*", "https://youtube.com/*"],
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*", "https://youtube.com/*"],
+    "js": ["runtime-context.js", "caption-style.js", "screen-text.js", "content.js"],
+    "run_at": "document_idle"
+  }],
+  "web_accessible_resources": [{
+    "resources": ["popup.html", "popup.css", "popup.js", "runtime-context.js", "caption-style.js"],
+    "matches": ["https://www.youtube.com/*", "https://youtube.com/*"]
+  }],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "Live English Captions" },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' http://127.0.0.1:8765 ws://127.0.0.1:8765"
+  }
+}

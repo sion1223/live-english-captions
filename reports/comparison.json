@@ -1,0 +1,655 @@
+{
+  "created_at": "2026-09-25T14:33:29.359691+00:00",
+  "rows": [
+    {
+      "engine": "gemini",
+      "sample": "0.wav",
+      "status": "skipped",
+      "error": "Gemini API key not configured"
+    },
+    {
+      "engine": "local",
+      "sample": "0.wav",
+      "reference": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+      "connection_ms": 5.4,
+      "status": "ok",
+      "duration_s": 6.625,
+      "first_text_ms": 2387.8,
+      "last_result_after_audio_end_ms": 84.0,
+      "updates": 14,
+      "revised_updates": 5,
+      "all_segments_final": true,
+      "word_errors": 4,
+      "reference_words": 18,
+      "wer_percent": 22.2,
+      "transcript": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BRAFFLELS",
+      "events": [
+        {
+          "type": "transcript",
+          "text": "THE YE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 2.36,
+          "decode_ms": 20.7,
+          "engine": "local",
+          "received_ms": 2387.8
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LA",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 2.68,
+          "decode_ms": 41.2,
+          "engine": "local",
+          "received_ms": 2725.1
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.0,
+          "decode_ms": 37.8,
+          "engine": "local",
+          "received_ms": 3045.5
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.32,
+          "decode_ms": 34.9,
+          "engine": "local",
+          "received_ms": 3357.6
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.64,
+          "decode_ms": 42.0,
+          "engine": "local",
+          "received_ms": 3686.2
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.96,
+          "decode_ms": 43.0,
+          "engine": "local",
+          "received_ms": 4010.8
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 4.28,
+          "decode_ms": 35.1,
+          "engine": "local",
+          "received_ms": 4326.4
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUA",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 4.92,
+          "decode_ms": 36.0,
+          "engine": "local",
+          "received_ms": 4960.8
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 5.24,
+          "decode_ms": 45.3,
+          "engine": "local",
+          "received_ms": 5291.6
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 5.56,
+          "decode_ms": 38.8,
+          "engine": "local",
+          "received_ms": 5607.8
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 5.88,
+          "decode_ms": 38.2,
+          "engine": "local",
+          "received_ms": 5931.0
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BRA",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 6.2,
+          "decode_ms": 34.9,
+          "engine": "local",
+          "received_ms": 6243.0
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BRAFFLEL",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 6.52,
+          "decode_ms": 35.9,
+          "engine": "local",
+          "received_ms": 6566.8
+        },
+        {
+          "type": "transcript",
+          "text": "THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BRAFFLELS",
+          "final": true,
+          "segment": 0,
+          "audio_seconds": 6.625,
+          "decode_ms": 81.3,
+          "engine": "local",
+          "received_ms": 6716.8
+        }
+      ]
+    },
+    {
+      "engine": "gemini",
+      "sample": "1.wav",
+      "status": "skipped",
+      "error": "Gemini API key not configured"
+    },
+    {
+      "engine": "local",
+      "sample": "1.wav",
+      "reference": "GOD AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONOURED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF MORTALS AND TO BE FINALLY A BLESSED SOUL IN HEAVEN",
+      "connection_ms": 5.5,
+      "status": "ok",
+      "duration_s": 16.715,
+      "first_text_ms": 1422.3,
+      "last_result_after_audio_end_ms": 71.3,
+      "updates": 46,
+      "revised_updates": 11,
+      "all_segments_final": true,
+      "word_errors": 2,
+      "reference_words": 48,
+      "wer_percent": 4.2,
+      "transcript": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF MORTALS AND TO BE FINALLY A BLESSED SOUL IN HEAVEN",
+      "events": [
+        {
+          "type": "transcript",
+          "text": "AS A",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 1.4,
+          "decode_ms": 19.7,
+          "engine": "local",
+          "received_ms": 1422.3
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 1.72,
+          "decode_ms": 34.4,
+          "engine": "local",
+          "received_ms": 1758.5
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CON",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 2.04,
+          "decode_ms": 34.5,
+          "engine": "local",
+          "received_ms": 2080.0
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUEN",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 2.36,
+          "decode_ms": 42.1,
+          "engine": "local",
+          "received_ms": 2408.8
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 2.68,
+          "decode_ms": 38.6,
+          "engine": "local",
+          "received_ms": 2724.4
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.0,
+          "decode_ms": 41.6,
+          "engine": "local",
+          "received_ms": 3048.4
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.32,
+          "decode_ms": 33.4,
+          "engine": "local",
+          "received_ms": 3364.0
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.64,
+          "decode_ms": 19.1,
+          "engine": "local",
+          "received_ms": 3661.6
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 3.96,
+          "decode_ms": 27.5,
+          "engine": "local",
+          "received_ms": 3994.0
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISH",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 4.28,
+          "decode_ms": 27.1,
+          "engine": "local",
+          "received_ms": 4312.1
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 4.6,
+          "decode_ms": 31.4,
+          "engine": "local",
+          "received_ms": 4648.2
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 4.92,
+          "decode_ms": 36.7,
+          "engine": "local",
+          "received_ms": 4966.4
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 5.24,
+          "decode_ms": 28.4,
+          "engine": "local",
+          "received_ms": 5276.4
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 5.56,
+          "decode_ms": 31.3,
+          "engine": "local",
+          "received_ms": 5600.5
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 5.88,
+          "decode_ms": 30.4,
+          "engine": "local",
+          "received_ms": 5926.0
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 6.2,
+          "decode_ms": 22.3,
+          "engine": "local",
+          "received_ms": 6229.3
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHO",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 6.84,
+          "decode_ms": 16.5,
+          "engine": "local",
+          "received_ms": 6863.1
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 7.16,
+          "decode_ms": 31.8,
+          "engine": "local",
+          "received_ms": 7206.9
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 7.48,
+          "decode_ms": 31.5,
+          "engine": "local",
+          "received_ms": 7521.4
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 7.8,
+          "decode_ms": 34.0,
+          "engine": "local",
+          "received_ms": 7839.2
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 8.12,
+          "decode_ms": 30.5,
+          "engine": "local",
+          "received_ms": 8154.3
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 8.44,
+          "decode_ms": 26.5,
+          "engine": "local",
+          "received_ms": 8469.1
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHO",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 8.76,
+          "decode_ms": 20.4,
+          "engine": "local",
+          "received_ms": 8782.0
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 9.08,
+          "decode_ms": 32.3,
+          "engine": "local",
+          "received_ms": 9122.2
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 9.4,
+          "decode_ms": 31.2,
+          "engine": "local",
+          "received_ms": 9436.0
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 9.72,
+          "decode_ms": 36.8,
+          "engine": "local",
+          "received_ms": 9762.5
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNEC",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 10.04,
+          "decode_ms": 29.3,
+          "engine": "local",
+          "received_ms": 10076.2
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 10.36,
+          "decode_ms": 32.6,
+          "engine": "local",
+          "received_ms": 10402.0
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 10.68,
+          "decode_ms": 38.4,
+          "engine": "local",
+          "received_ms": 10735.3
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 11.32,
+          "decode_ms": 20.0,
+          "engine": "local",
+          "received_ms": 11354.6
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 11.64,
+          "decode_ms": 41.4,
+          "engine": "local",
+          "received_ms": 11690.2
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RA",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 11.96,
+          "decode_ms": 34.3,
+          "engine": "local",
+          "received_ms": 12008.7
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 12.28,
+          "decode_ms": 35.1,
+          "engine": "local",
+          "received_ms": 12334.7
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 12.6,
+          "decode_ms": 20.0,
+          "engine": "local",
+          "received_ms": 12632.4
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 12.92,
+          "decode_ms": 40.4,
+          "engine": "local",
+          "received_ms": 12971.3
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 13.24,
+          "decode_ms": 32.7,
+          "engine": "local",
+          "received_ms": 13278.4
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF MORTALS",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 13.56,
+          "decode_ms": 25.2,
+          "engine": "local",
+          "received_ms": 13604.7
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF MORTALS AND",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 14.2,
+          "decode_ms": 19.7,
+          "engine": "local",
+          "received_ms": 14230.2
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF MORTALS AND TO BE",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 14.52,
+          "decode_ms": 29.9,
+          "engine": "local",
+          "received_ms": 14556.1
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF MORTALS AND TO BE FINAL",
+          "final": false,
+          "segment": 0,
+          "audio_seconds": 14.84,
+          "decode_ms": 29.8,
+          "engine": "local",
+          "received_ms": 14885.9
+        },
+        {
+          "type": "transcript",
+          "text": "AS A DIRECT CONSEQUENCE OF THE SIN WHICH MAN THUS PUNISHED HAD GIVEN HER A LOVELY CHILD WHOSE PLACE WAS ON THAT SAME DISHONORED BOSOM TO CONNECT HER PARENT FOR EVER WITH THE RACE AND DESCENT OF MORTALS AND TO BE FINALLY",
+          "final": true,
+          "segment": 0,
+          "audio_seconds": 15.16,
+          "decode_ms": 28.4,
+          "engine": "local",
+          "received_ms": 15203.1
+        },
+        {
+          "type": "transcript",
+          "text": "A BLESS",
+          "final": false,
+          "segment": 1,
+          "audio_seconds": 15.48,
+          "decode_ms": 37.9,
+          "engine": "local",
+          "received_ms": 15528.9
+        },
+        {
+          "type": "transcript",
+          "text": "A BLESSED",
+          "final": false,
+          "segment": 1,
+          "audio_seconds": 15.8,
+          "decode_ms": 38.7,
+          "engine": "local",
+          "received_ms": 15845.9
+        },
+        {
+          "type": "transcript",
+          "text": "A BLESSED SOUL",
+          "final": false,
+          "segment": 1,
+          "audio_seconds": 16.12,
+          "decode_ms": 30.7,
+          "engine": "local",
+          "received_ms": 16153.9
+        },
+        {
+          "type": "transcript",
+          "text": "A BLESSED SOUL IN HEA",
+          "final": false,
+          "segment": 1,
+          "audio_seconds": 16.44,
+          "decode_ms": 32.6,
+          "engine": "local",
+          "received_ms": 16476.5
+        },
+        {
+          "type": "transcript",
+          "text": "A BLESSED SOUL IN HEAVEN",
+          "final": true,
+          "segment": 1,
+          "audio_seconds": 16.715,
+          "decode_ms": 69.0,
+          "engine": "local",
+          "received_ms": 16800.6
+        }
+      ]
+    }
+  ]
+}

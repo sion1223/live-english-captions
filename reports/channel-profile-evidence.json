@@ -1,0 +1,452 @@
+[
+  {
+    "profileId": "saba",
+    "terms": [
+      {
+        "term": "Sameko Saba",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 1
+        },
+        "observedSpellingVariants": [
+          "Samo Saba"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Saba",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 29,
+          "cqexC_KlAnw": 8,
+          "kIsRYLvylXk": 14
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Kaniki",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Kanikis",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Yoho",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 4,
+          "cqexC_KlAnw": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Sabart",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 5
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Sabanara",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 3
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Sabs",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Dooby",
+        "captionOrDescriptionMatches": {
+          "cqexC_KlAnw": 28,
+          "kIsRYLvylXk": 5
+        },
+        "observedSpellingVariants": [
+          "Doobie"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Limealicious",
+        "captionOrDescriptionMatches": {
+          "cqexC_KlAnw": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Henya",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Henya the Genius",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Hytale",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "YAPYAP",
+        "captionOrDescriptionMatches": {
+          "cqexC_KlAnw": 2
+        },
+        "observedSpellingVariants": [
+          "Yap Yap"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Thorium",
+        "captionOrDescriptionMatches": {
+          "kIsRYLvylXk": 57
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Cobalt",
+        "captionOrDescriptionMatches": {
+          "kIsRYLvylXk": 46
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Vampire Survivors",
+        "captionOrDescriptionMatches": {
+          "kIsRYLvylXk": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Monster Hunter",
+        "captionOrDescriptionMatches": {
+          "kIsRYLvylXk": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Resident Evil",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 3
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Devil May Cry",
+        "captionOrDescriptionMatches": {
+          "cqexC_KlAnw": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Lethal Company",
+        "captionOrDescriptionMatches": {
+          "cqexC_KlAnw": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Final Fantasy",
+        "captionOrDescriptionMatches": {
+          "kIsRYLvylXk": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Golden Sun",
+        "captionOrDescriptionMatches": {
+          "kIsRYLvylXk": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "GoldenEye",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 4
+        },
+        "observedSpellingVariants": [
+          "Golden Eye"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Sabaton",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 5
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Anime Expo",
+        "captionOrDescriptionMatches": {
+          "pYVEIX7nSEs": 8
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      }
+    ]
+  },
+  {
+    "profileId": "cecilia",
+    "terms": [
+      {
+        "term": "Cecilia Immergreen",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 2
+        },
+        "observedSpellingVariants": [
+          "Cecilia Immigrine"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Cecilia",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 7,
+          "_EXIVk54450": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Immergreen",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Ceci",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Cece",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 1,
+          "_EXIVk54450": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Otomo",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Otomos",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "hololive",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 4
+        },
+        "observedSpellingVariants": [
+          "Hol Life"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "hololive English",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Justice",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 20
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Elizabeth Rose Bloodflame",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Gigi Murin",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Raora Panthera",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "automaton",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 5
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "automata",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 4
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Wind-Up",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Mario Kart",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 2
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Dark Souls",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Final Fantasy Crystal Chronicles",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 1
+        },
+        "observedSpellingVariants": [
+          "Crystal Chronicle"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Ring of Fates",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Code Geass",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 1
+        },
+        "observedSpellingVariants": [
+          "Code Guess"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Dungeon Meshi",
+        "captionOrDescriptionMatches": {
+          "p_ZQs-kgUKI": 1
+        },
+        "observedSpellingVariants": [
+          "Dungeon Meshy"
+        ],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "One Piece",
+        "captionOrDescriptionMatches": {
+          "_EXIVk54450": 2
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Stranger Things",
+        "captionOrDescriptionMatches": {
+          "_EXIVk54450": 20
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Winona Ryder",
+        "captionOrDescriptionMatches": {
+          "_EXIVk54450": 8
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Demogorgon",
+        "captionOrDescriptionMatches": {
+          "_EXIVk54450": 2
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Upside Down",
+        "captionOrDescriptionMatches": {
+          "_EXIVk54450": 5
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "Gordon Ramsay",
+        "captionOrDescriptionMatches": {
+          "_EXIVk54450": 1
+        },
+        "observedSpellingVariants": [],
+        "note": "caption or creator description evidence"
+      },
+      {
+        "term": "CCGG",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      },
+      {
+        "term": "Autofister",
+        "captionOrDescriptionMatches": {},
+        "observedSpellingVariants": [],
+        "note": "canonical spelling / supplemental public reference"
+      }
+    ]
+  }
+]

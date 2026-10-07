@@ -1,0 +1,19 @@
+.venv/
+models/
+.run/
+__pycache__/
+*.pyc
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+settings.json
+*-settings.json
+credentials*.json
+*.pem
+*.key
+
+# Generated logs and test caches
+*.log
+.pytest_cache/
